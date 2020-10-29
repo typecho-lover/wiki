@@ -12,7 +12,7 @@ module.exports = {
         // 编辑
         editLinks: true,
         docsRepo: 'typecho-lover/wiki',
-        docsBranch: 'main',
+        docsBranch: 'master',
         editLinkText: '帮助我们改善此页面！'
     },
     plugins: pluginConf
