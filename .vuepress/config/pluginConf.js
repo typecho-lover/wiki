@@ -2,9 +2,14 @@ const sidebarConf = require('./sidebarConf.js');
 
 module.exports = {
     '@vuepress/active-header-links': {},
-    '@vuepress/last-updated': {transformer: (timestamp) => moment(timestamp).format('LLLL')},
+    '@vuepress/last-updated': {
+        transformer: (timestamp, lang) => {
+            const moment = require('moment')
+            moment.locale(lang)
+            return moment(timestamp).fromNow()
+        }
+    },
     'vuepress-plugin-auto-sidebar': sidebarConf,
-    'seo': {},
     '@vuepress/pwa': {
         serviceWorker: true,
         updatePopup: {

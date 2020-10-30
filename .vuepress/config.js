@@ -3,6 +3,7 @@ const navConf = require('./config/navConf.js');
 const pluginConf = require('./config/pluginConf.js');
 
 module.exports = {
+    lang: 'zh-CN',
     title: 'Typecho Wiki',
     description: '由 Typecho Lover 维护的维基',
     head: headConf,
