@@ -1,0 +1,62 @@
+site_name: Typecho Wiki
+site_description: 
+
+repo_url: https://github.com/typecho/typecho
+repo_name: typecho
+edit_uri: https://github.com/typecho-lover/wiki/edit/master/docs/
+
+docs_dir: 'wiki'
+
+theme:
+    name: material
+    palette:
+        primary: blue grey
+        accent: indigo
+    language: zh
+    icon:
+        repo: fontawesome/brands/github
+    features:
+        - search.suggest
+        - search.highlight
+        - navigation.instant
+        - navigation.tabs
+        - toc.autohide
+        - header.autohide
+
+plugins:
+  - search:
+      lang: ja
+
+markdown_extensions:
+  - toc:
+      permalink: ⚓︎
+      toc_depth: 3
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.tabbed
+  - pymdownx.superfences
+  - footnotes
+  - meta
+
+extra:
+  social:
+    - icon: fontawesome/brands/telegram-plane
+      link: https://t.me/typecho-lover
+
+nav:
+  - 主页: 'index.md'
+  - 安装:
+    - 'install/introduce.md'
+    - 操作系统:
+      - Linux:
+        - 'install/os/linux/deb.md'
+        - 'install/os/linux/rpm.md'
+      - 'install/os/windows.md'
+      - 'install/os/osx.md'
+    - 云服务:
+      - 'install/cloud/gae.md'
+      - 'install/cloud/sae.md'
+      - 'install/cloud/bae.md'
+      - 'install/cloud/heroku.md'
+    - 'install/vs.md'
