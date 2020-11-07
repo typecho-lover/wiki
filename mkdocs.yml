@@ -60,3 +60,5 @@ nav:
       - install/cloud/bae.md
       - install/cloud/heroku.md
     - install/vs.md
+  - 贡献: 
+    - contribute/wiki.md
