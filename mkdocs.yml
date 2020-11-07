@@ -1,5 +1,5 @@
 site_name: Typecho Wiki
-site_description: 
+site_description: 由爱好者所维护的 Typecho 维基，以帮助用户快速入门。
 
 repo_url: https://github.com/typecho/typecho
 repo_name: typecho
@@ -45,18 +45,18 @@ extra:
       link: https://t.me/typecho-lover
 
 nav:
-  - 主页: 'index.md'
+  - 主页: index.md
   - 安装:
-    - 'install/introduce.md'
+    - install/introduce.md
     - 操作系统:
       - Linux:
-        - 'install/os/linux/deb.md'
-        - 'install/os/linux/rpm.md'
-      - 'install/os/windows.md'
-      - 'install/os/osx.md'
+        - install/os/linux/deb.md
+        - install/os/linux/rpm.md
+      - install/os/windows.md
+      - install/os/osx.md
     - 云服务:
-      - 'install/cloud/gae.md'
-      - 'install/cloud/sae.md'
-      - 'install/cloud/bae.md'
-      - 'install/cloud/heroku.md'
-    - 'install/vs.md'
+      - install/cloud/gae.md
+      - install/cloud/sae.md
+      - install/cloud/bae.md
+      - install/cloud/heroku.md
+    - install/vs.md
