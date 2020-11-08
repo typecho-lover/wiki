@@ -1,11 +1,13 @@
 site_name: Typecho Wiki
 site_description: 由爱好者所维护的 Typecho 维基，以帮助用户快速入门。
+site_url: https://wiki.typecho.love
 
 repo_url: https://github.com/typecho/typecho
 repo_name: typecho
 edit_uri: https://github.com/typecho-lover/wiki/edit/master/docs/
-
 docs_dir: 'wiki'
+
+copyright: 'Copyright &copy; 2020 Typecho Lover'
 
 theme:
     name: material
