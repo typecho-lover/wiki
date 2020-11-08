@@ -45,6 +45,8 @@ extra:
   social:
     - icon: fontawesome/brands/telegram-plane
       link: https://t.me/typecho-lover
+    - icon: fontawesome/brands/qq
+      link: https://jq.qq.com/?_wv=1027&k=YoEFjcIp
 
 nav:
   - 主页: index.md

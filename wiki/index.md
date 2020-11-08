@@ -8,6 +8,7 @@ title: 主页
 ## 群组
 
 - [Telegram Group](https://t.me/typecho_lover)
+- [QQ Group](https://jq.qq.com/?_wv=1027&k=YoEFjcIp)
 
 ## 多语言
 
