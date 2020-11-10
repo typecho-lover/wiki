@@ -4,7 +4,7 @@ site_url: https://wiki.typecho.love
 
 repo_url: https://github.com/typecho/typecho
 repo_name: typecho
-edit_uri: https://github.com/typecho-lover/wiki/edit/master/docs/
+edit_uri: https://github.com/typecho-lover/wiki/edit/master/wiki/
 docs_dir: 'wiki'
 
 copyright: 'Copyright &copy; 2020 Typecho Lover'
