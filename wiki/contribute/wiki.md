@@ -19,6 +19,8 @@ title: 维基
 
 ### 本地编辑
 
+> 如果你在使用 VSCode 进行文本编辑，那么我们推荐你配合 [markdownlint](https://github.com/DavidAnson/vscode-markdownlint.git) 插件一同使用，以便检测 markdown 的语法是否符合规范。
+
 除云端编辑所需的预设条件外，你还需要
 
 - 安装 Git、Python、Pip
