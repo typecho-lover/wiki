@@ -1,6 +1,5 @@
----
-title: 介绍
----
+# 介绍
+
 **Typecho**(/taɪpˌ'ekoʊ/) 是一款基于 PHP + Typecho Framework 开发的博客程序，关于 [Typecho 与其他博客程序的比较](../install/vs.md)并不是本章节的重点，
 
 ## 环境

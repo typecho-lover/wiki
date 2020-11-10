@@ -1,6 +1,5 @@
----
-title: rpm 系
----
+# rpm 系
+
 ## CentOS
 
 ### 面板

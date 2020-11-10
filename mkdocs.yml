@@ -51,20 +51,22 @@ extra:
 nav:
   - 主页: index.md
   - 安装:
-    - install/introduce.md
+    - 介绍: install/introduce.md
     - 操作系统:
       - Linux:
-        - install/os/linux/deb.md
-        - install/os/linux/rpm.md
-      - install/os/windows.md
-      - install/os/osx.md
+        - deb 系: install/os/linux/deb.md
+        - rpm 系: install/os/linux/rpm.md
+      - Windows: install/os/windows.md
+      - OS X: install/os/osx.md
     - 云服务:
-      - install/cloud/gae.md
-      - install/cloud/sae.md
-      - install/cloud/bae.md
-      - install/cloud/heroku.md
-    - install/vs.md
+      - GAE: install/cloud/gae.md
+      - SAE: install/cloud/sae.md
+      - BAE: install/cloud/bae.md
+      - Heroku: install/cloud/heroku.md
+    - 比较: install/vs.md
   - 开发: 
     - 准备: dev/prepare.md
+    - 主题:
+     - 字段表: dev/theme/field.md
   - 贡献: 
-    - contribute/wiki.md
+    - 维基: contribute/wiki.md
