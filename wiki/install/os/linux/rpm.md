@@ -1,8 +1,6 @@
 ---
 title: rpm 系
 ---
-# rpm 系
-
 ## CentOS
 
 ### 面板
@@ -57,6 +55,7 @@ AppNode 中可以设定不同站点运行在不同的运行环境下，所以我
 ``` url
 https://github.com/typecho/typecho/archive/master.zip
 ```
+
 解压该压缩包，并复制 `typecho-master` 文件夹内所有文件至 `www` 文件夹中。
 
 现在打开该网站所绑定的域名，跟随 Typecho 安装指引填写数据库名称、用户名、密码。如果忘记了数据库相关信息，你也可以打开“网站管理-设置-MySQL”进行查看。

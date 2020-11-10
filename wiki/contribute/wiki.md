@@ -1,8 +1,6 @@
 ---
 title: 维基
 ---
-# 维基
-
 ## 编辑
 
 你可以通过两种方式来向维基提供贡献。
@@ -35,12 +33,14 @@ pip install mkdocs mkdocs-material
 ```
 
 下面克隆维基仓库，并进入其文件夹
+
 ``` shell
 git clone https://github.com/typecho-lover/wiki.git
 cd wiki
 ```
 
 运行 mkdocs 的本地服务
+
 ``` shell
 mkdocs serve
 ```
