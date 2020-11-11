@@ -59,10 +59,13 @@ nav:
       - Windows: install/os/windows.md
       - OS X: install/os/osx.md
     - 云服务:
+      - BAE: install/cloud/bae.md
       - GAE: install/cloud/gae.md
       - SAE: install/cloud/sae.md
-      - BAE: install/cloud/bae.md
       - Heroku: install/cloud/heroku.md
+    - 面板: 
+      - AppNode: install/panel/appnode.md
+      - 宝塔: install/panel/bt.md
     - 比较: install/vs.md
   - 开发: 
     - 准备: dev/prepare.md
