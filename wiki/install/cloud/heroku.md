@@ -36,6 +36,7 @@ heroku create
 打开所创建应用的管理面板，并打开导航栏中的 **Settings**，该页面下有 **Config Vars** 项，打开就会显示PostgerSQL 数据库的相关信息。类似下表
 
 | KEY | VALUE |
+| - | - |
 | DATABASE_URL | postgres://用户名:密码@数据库主机:5432/数据库名称 |
 
 ## 安装
