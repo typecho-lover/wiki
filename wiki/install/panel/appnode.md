@@ -7,6 +7,7 @@
 - CentOS 6.x 32/64 位
 - CentOS 7.x 64 位
 - 暂不支持 Ubuntu、Debian
+
 内存要求：
 
 - 建议可用内存在 512MB 以上。
