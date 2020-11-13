@@ -1,12 +1,12 @@
-# 字段表
+# 词典
 
 ## 文件结构
 
-| 文件名 | 说明 | 必须 |
+| 文件名 | 注释 | 必须 |
 | - | - | - |
-| screenshot.png | 主题缩略图,图片后缀支持 `jpg`，`png`，`gif`，`bmp`，`jpeg` | 否 |
+| screenshot.png | 模板缩略图,图片后缀支持 `jpg`，`png`，`gif`，`bmp`，`jpeg` | 否 |
 | index.php | 主页以及说明文件 | **是** |
-| functions.php | 主题函数 | 否 |
+| functions.php | 模板函数 | 否 |
 | header.php | 头部 | 否 |
 | footer.php | 底部 | 否 |
 | post.php | 文章 | 否 |
@@ -21,7 +21,7 @@
 
 ## 站点信息
 
-| 类名 | 说明 |
+| 类名 | 注释 |
 | - | - |
 | `<?php $this->options->siteUrl(); ?>` | 站点链接 |
 | `<?php $this->options->title() ?>` | 站点标题 |
@@ -30,7 +30,7 @@
 
 ## 文章信息
 
-| 类名 | 说明 |
+| 类名 | 注释 |
 | - | - |
 | `<?php $this->permalink() ?>` | 文章链接 |
 | `<?php $this->title() ?>` | 文章标题 |
@@ -50,7 +50,7 @@
 <?php $stat->属性名() ?>
 ```
 
-| 属性名 | 说明 |
+| 属性名 | 注释 |
 | - | - |
 | `publishedPostsNum` | 获取已发布的文章数目 |
 | `waitingPostsNum` | 获取待审核的文章数目 |

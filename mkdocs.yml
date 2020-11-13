@@ -69,6 +69,8 @@ nav:
     - 比较: install/vs.md
   - 开发: 
     - 准备: dev/prepare.md
-    - 主题 + 字段表: dev/theme/field.md
+    - 主题:
+      - 头部: dev/theme/header.md
+      - 词典: dev/theme/snippet.md
   - 贡献: 
     - 维基: contribute/wiki.md
