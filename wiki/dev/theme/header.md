@@ -42,20 +42,6 @@
 <link rel="alternate" type="application/atom+xml" title="ATOM 1.0" href=".../feed/atom/" />
 ```
 
-你也可以通过下面的词典来查找你想要过滤项目所对应的参数。
-
-| 参数 | 注释 |
-| - | - |
-| keywords | 关键词 |
-| description | 描述、摘要 |
-| rss1 | Feed rss1.0 |
-| rss2 | Feed rss2.0 |
-| atom | Feed atom |
-| generator | 程序版本等 |
-| template | 模板名称 |
-| pingback | 文章引用 |
-| xmlrpc | 离线写作接口 |
-| wlw | Windows Live Writer 离线写作接口 |
-| commentReply | 评论回复 |
+你也可以[通过词典查找](snippet.md#头部信息)你想要过滤项目所对应的参数。
 
 > 等号（=）为空则不输出该项目，各个参数之间使用 `&` 连接。 如果需要自定义 RSS 地址，只填上  `rss2=RSS 地址` 即可。

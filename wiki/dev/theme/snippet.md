@@ -1,24 +1,5 @@
 # 词典
 
-## 文件结构
-
-| 文件名 | 注释 | 必须 |
-| - | - | - |
-| screenshot.png | 模板缩略图,图片后缀支持 `jpg`，`png`，`gif`，`bmp`，`jpeg` | 否 |
-| index.php | 主页以及说明文件 | **是** |
-| functions.php | 模板函数 | 否 |
-| header.php | 头部 | 否 |
-| footer.php | 底部 | 否 |
-| post.php | 文章 | 否 |
-| page.php | 独立页面 | 否 |
-| comments.php | 评论 | 否 |
-| 404.php | 404 页 | 否 |
-| archive.php | 通用页（分类、搜索、标签、作者） | 否 |
-| category.php | 分类页 | 否 |
-| search.php | 搜索页 | 否 |
-| tag.php | 标签页 | 否 |
-| author.php | 作者页 | 否 |
-
 ## 站点信息
 
 | 类名 | 注释 |
@@ -27,6 +8,22 @@
 | `<?php $this->options->title() ?>` | 站点标题 |
 | `<?php $this->options->description() ?>` | 站点描述 |
 | `<?php $this->options->feedUrl(); ?>` | RSS 地址 |
+
+## 头部信息
+
+| 参数 | 注释 |
+| - | - |
+| keywords | 关键词 |
+| description | 描述、摘要 |
+| rss1 | Feed rss1.0 |
+| rss2 | Feed rss2.0 |
+| atom | Feed atom |
+| generator | 程序版本等 |
+| template | 模板名称 |
+| pingback | 文章引用 |
+| xmlrpc | 离线写作接口 |
+| wlw | Windows Live Writer 离线写作接口 |
+| commentReply | 评论回复 |
 
 ## 文章信息
 
