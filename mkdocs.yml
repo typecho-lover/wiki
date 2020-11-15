@@ -28,6 +28,7 @@ theme:
 plugins:
   - search:
       lang: ja
+  - git-revision-date
 
 markdown_extensions:
   - toc:
