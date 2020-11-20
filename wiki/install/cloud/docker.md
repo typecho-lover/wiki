@@ -49,6 +49,22 @@ cd typecho-on-docker
 vi docker-compose.yml
 ```
 
+## 下载 Typecho
+
+以下两个环境，你需要拥有其中之一。
+
+- git（推荐）
+- wget 和 unzip
+
+``` shell
+git clone https://github.com/typecho/typecho.git public
+```
+
+``` shell
+wget https://github.com/typecho/typecho/archive/master.zip
+unzip master.zip public
+```
+
 ## 部署 Typecho
 
 ``` docker
