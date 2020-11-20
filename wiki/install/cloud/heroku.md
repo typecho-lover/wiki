@@ -57,7 +57,7 @@ $db->addServer(array (
 Typecho_Db::set($db);
 ```
 
-最后推送更改到 Heroku 上就会自动部署了，之后根据 Typecho 安装指引完成安装。
+最后推送更改到 Heroku 上就会自动部署了，之后只需根据 Typecho 安装指引即可完成安装。
 
 ```git
 git push heroku main

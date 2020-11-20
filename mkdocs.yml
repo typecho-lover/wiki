@@ -61,6 +61,7 @@ nav:
       - OS X: install/os/osx.md
     - 云服务:
       - BAE: install/cloud/bae.md
+      - Docker: install/cloud/docker.md
       - GAE: install/cloud/gae.md
       - SAE: install/cloud/sae.md
       - Heroku: install/cloud/heroku.md
