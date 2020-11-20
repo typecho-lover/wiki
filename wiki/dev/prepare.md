@@ -2,7 +2,7 @@
 
 ## 开发环境
 
-关于本地开发环境搭建的内容暂时搁置，欢迎贡献。
+我们推荐通过 Docker 部署开发环境，详情可见「[安装-云服务-Docker](https://wiki.typecho.love/install/cloud/docker/)」。
 
 ## 其他工作
 
